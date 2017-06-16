@@ -1,0 +1,11 @@
+<resources>
+<<<<<<< HEAD
+    <string name="app_name">DateTimePicker</string>
+=======
+    <string name="app_name">DateTImePicker</string>
+    <string name="select_date">Select Date</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="select_time">Select Time</string>
+>>>>>>> 1f3a7ffa48ff0efcde14c36972bebd21bded0a29
+</resources>

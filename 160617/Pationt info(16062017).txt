@@ -1,0 +1,13 @@
+pationt info form
+Sqlite db, basic controls
+
+
+case id (EditText)
+name (EditText)
+age (DatePickerDialog)
+gender (RadioButton)
+desease (Spinner)
+doctor name (AutoCompleteTextView)
+room (ExpandableListView)
+charges (EditText) (charges+text)
+contact no (EditText)

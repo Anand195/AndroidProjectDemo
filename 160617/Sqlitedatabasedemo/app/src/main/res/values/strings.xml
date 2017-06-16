@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sqlitedatabasedemo</string>
+    <string name="enter_no">Enter No:</string>
+    <string name="enter_name">Enter Name:</string>
+    <string name="enter_marks">Enter Marks</string>
+    <string name="insert">Insert</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="show">Show</string>
+</resources>

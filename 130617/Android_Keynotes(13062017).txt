@@ -1,0 +1,36 @@
+Use higher priority properties in android to speed up compilation and execution!
+also helps to improve performance
+
+Android layout priority
+
+Relative Layout
+id
+layout_weidth
+layout_height
+centerInParent
+centerHorizontal
+
+
+// 13/06/2017 // 
+
+Diffrent Lauyouts (10:15 - 12:18)
+ -- (12:19 - 7:20) --
+Radio Group
+Radio Button 
+Check Box 
+Toast
+Intent
+Bundlle
+SparseBooleanArray
+ArrayAdapter
+ArrayList
+ListView
+Widgets (Button,TextView,...)
+Fetch text & show in Toast by Static method
+Fetch text & show in Toast by Dynamic method
+StringBuffer (StringBuilder) method (.append)
+	---
+	
+	
+	
+	?? Keymap ??

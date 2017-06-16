@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DashboardApp</string>
+    <string name="login_as_admin">Login As Admin</string>
+    <string name="login_as_guest">Login As Guest</string>
+    <string name="php">PHP</string>
+    <string name="android">Android</string>
+    <string name="java">java</string>
+    <string name="logout">Logout</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.example.anand.d.MActivity">
+
+    <Button
+        android:id="@+id/btn_android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/android"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_php"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_android"
+        android:text="@string/php"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_php"
+        android:text="@string/java"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/logout"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:text="@string/login_as_admin"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_guest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@id/btn_login"
+        android:text="@string/login_as_guest"
+        android:textAllCaps="false" />
+
+    <ImageButton
+        android:id="@+id/iv_a"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/ic_launcher" />
+
+</RelativeLayout>

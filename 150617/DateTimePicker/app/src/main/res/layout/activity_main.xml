@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anand.datetimepicker.MainActivity">
+
+   <!-- <EditText
+        android:id="@+id/et_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:hint="@string/select_date"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/select_time"
+        android:gravity="center"
+        android:layout_below="@id/et_date"/>-->
+
+    <Button
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:layout_marginBottom="20dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/btn_date"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

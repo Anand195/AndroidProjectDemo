@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Layout Demo</string>
+    <string name="quiz">Quiz</string>
+    <string name="quetion">sample quetion goes here</string>
+    <string name="answer">write your answer here</string>
+    <string name="submit">Submit</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="grid">Grid Layout</string>
+    <string name="Relative">Relative Layout</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="php">PHP</string>
+    <string name="android">Android</string>
+    <string name="ios">ios</string>
+</resources>

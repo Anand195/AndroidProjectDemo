@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SqliteDemo</string>
+    <string name="enter_case_id">Enter Case Id</string>
+    <string name="enter_doctor_name">Enter Doctor Name</string>
+    <string name="PationtName">Enter Pationt Name</string>
+    <string name="age">Enter your age</string>
+    <string name="rb_male">Male</string>
+    <string name="rb_female">Female</string>
+    <string name="dName">Enter Doctor Name</string>
+    <string name="cNo">Enter your contact no</string>
+    <string name="login">Login</string>
+    <string name="login_form">Login Form</string>
+    <string name="enter_your_email_id">Enter your email id</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="insert_record">Insert Record</string>
+</resources>
