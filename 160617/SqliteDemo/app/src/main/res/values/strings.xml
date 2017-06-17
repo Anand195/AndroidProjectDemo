@@ -14,4 +14,9 @@
     <string name="enter_password">Enter Password</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="insert_record">Insert Record</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="enter_conform_password">Enter conform Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="register">Register</string>
 </resources>

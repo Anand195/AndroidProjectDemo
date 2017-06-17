@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.example.anand.sqlitedemo.MainActivity">
+    tools:context="com.example.anand.sqlitedemo.RegistrationActivity">
 
     <TextView
         android:id="@+id/tv_Login"
@@ -13,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:gravity="center"
-        android:text="@string/login_form"
+        android:text="@string/registration_form"
         android:textColor="@android:color/white"
         android:textSize="32dp" />
 
@@ -25,8 +24,8 @@
         android:layout_margin="10dp"
         android:orientation="vertical">
 
-        <AutoCompleteTextView
-            android:id="@+id/actv_Emailid"
+        <EditText
+            android:id="@+id/et_Emailid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -46,26 +45,50 @@
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white" />
 
-        <TextView
-            android:id="@+id/tv_Fpass"
-            android:layout_width="wrap_content"
+        <EditText
+            android:id="@+id/et_CPassword"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/forgot_password"
-            android:textColor="@android:color/white" />
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:hint="@string/enter_conform_password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <RadioGroup
+            android:id="@+id/rg_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male" />
+
+            <RadioButton
+                android:id="@+id/rb_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female" />
+
+        </RadioGroup>
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
-        android:background="@android:color/holo_orange_light"
+        android:background="@android:color/holo_orange_dark"
         android:padding="5dp"
-        android:text="@string/login"
+        android:text="@string/register"
         android:textAllCaps="false"
         android:textColor="@android:color/black"
         android:textSize="18sp" />
